@@ -1,0 +1,37 @@
+  
+.startPage{
+    align-items: center;
+    text-align: center;
+}
+.startPage h1{
+    text-align: center !important;
+}
+.NextStep{
+    background-color: #009e00;
+    color:#fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.NextStep:hover{
+    background-color: green;
+}
+.NextStep[disabled]{
+    display: none;
+}
+
+.finalPage{
+    text-align: center;
+    width: 100%;
+}
+.finalPage h1{
+    text-align: center !important;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #008416 !important;
+    text-transform: none;
+    text-shadow: none;
+}
